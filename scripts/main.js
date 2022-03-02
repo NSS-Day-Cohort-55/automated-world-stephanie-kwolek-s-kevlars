@@ -1,0 +1,1 @@
+import { createFooterText } from "./footer.js";
