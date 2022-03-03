@@ -1,6 +1,6 @@
-import { cityRender } from "/scripts/japan/cities/renderCities.js";
-import { landmarkRender } from "/scripts/japan/landmarks/renderLandmarks.js";
-import { peopleRender } from "/scripts/japan/people/renderPeople.js";
+import { cityRender } from "/scripts/Iceland/cities/RenderCities.js";
+import { landmarkRender } from "/scripts/Iceland/landmarks/RenderLandmarks.js";
+import { peopleRender } from "/scripts/Iceland/people/RenderPeople.js";
 
 cityRender();
 landmarkRender();
