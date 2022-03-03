@@ -1,9 +1,9 @@
 export const formatData = (obj) =>{
     return `
-        <section class="city-cards">
+        <article class="city-data">
             <h3>${obj.name}</h3>
-            <p>${obj.population}</p>
+            <p>Population: ${obj.population}</p>
             <article>${obj.description}</article>
-        </section>
+        </article>
     `
 }

@@ -1,23 +1,23 @@
 const notableCitizens = [
     {
-        name: ""
-        , occupation: ""
-        , description: ""
-        , website: ""
+        name: "test"
+        , occupation: "test"
+        , description: "test"
+        , website: "test"
     }
     ,
     {
-        name: ""
-        , occupation: ""
-        , description: ""
-        , website: ""
+        name: "test"
+        , occupation: "test"
+        , description: "test"
+        , website: "test"
     }
     ,
     {
-        name: ""
-        , occupation: ""
-        , description: ""
-        , website: ""
+        name: "test"
+        , occupation: "test"
+        , description: "test"
+        , website: "test"
     }
 ]
 
