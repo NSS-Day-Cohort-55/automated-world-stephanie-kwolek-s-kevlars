@@ -20,3 +20,7 @@ const notableLandMarks = [
     website: "https://www.city.himeji.lg.jp/castle/index.html",
   },
 ];
+
+export const getLandMarks = () => {
+  return notableLandMarks;
+};

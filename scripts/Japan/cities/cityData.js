@@ -18,3 +18,7 @@ const notableCities = [
       "Hiroshima  is the capital of Hiroshima Prefecture in Japan. As of June 1, 2019, the city had an estimated population of 1,199,391. The gross domestic product (GDP) in Greater Hiroshima, Hiroshima Urban Employment Area, was US$61.3 billion as of 2010. Kazumi Matsui has been the city's mayor since April 2011. Hiroshima was founded in 1598 as a castle town on the Ōta River delta. Following the Meiji Restoration in 1868, Hiroshima rapidly transformed into a major urban center and industrial hub. In 1889, Hiroshima officially gained city status. The city was a center of military activities during the imperial era, playing significant roles such as in the First Sino-Japanese War, the Russo-Japanese War, and the two world wars.Hiroshima was the first city targeted by a nuclear weapon. This occurred on August 6, 1945, at 8:15 a.m., when the United States Army Air Forces (USAAF) dropped the atomic bomb (Little Boy) on the city. Most of the city was destroyed, and by the end of the year between 90,000 and 166,000 had died as a result of the blast and its effects. The Hiroshima Peace Memorial (a UNESCO World Heritage Site) serves as a memorial of the bombing. ",
   },
 ];
+
+export const getCities = () => {
+  return notableCities;
+};
