@@ -1,0 +1,29 @@
+.nav_bar {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  border: outset #e9ecf5;
+  background-color: #e9ecf5;
+}
+
+.nav_bar img {
+  /* Margins and padding */
+  width: 20%;
+
+  /* Flexbox stuff */
+  display: flex;
+  justify-content: center;
+
+  /* Other */
+  transition: scale 1s 1s;
+}
+
+/* hover effects on link */
+.nav_bar a:hover img {
+  transform: scale(1.2);
+}
+
+.nav_country a {
+  display: flex;
+  justify-content: center;
+}
