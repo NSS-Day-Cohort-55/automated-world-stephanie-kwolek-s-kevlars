@@ -1,26 +1,3 @@
-<<<<<<< HEAD
-.nav_bar{
-    display: flex;
-    flex-direction: row;
-    align-content: space-between;
-    transition: transform 1s;
-  }
-  .data-card-container{
-    display:flex;
-  }
-  .data-cards{
-    width: 30%;
-    margin: 1em;
-  }
-  .city-data, .landmark-data, .people-data{
-    border: 1px solid black;
-    margin: 1em 0em;
-    padding: 1em;
-  }
-  h3{
-    font-size: large;
-  }
-=======
 @import "nav-bar.css";
 @import "footer.css";
 
@@ -41,4 +18,3 @@
 h3 {
   font-size: large;
 }
->>>>>>> main
