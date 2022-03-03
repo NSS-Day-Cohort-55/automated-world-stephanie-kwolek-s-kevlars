@@ -1,5 +1,6 @@
 @import "nav-bar.css";
 @import "footer.css";
+@import "slideshow.css";
 
 .data-card-container {
   display: flex;

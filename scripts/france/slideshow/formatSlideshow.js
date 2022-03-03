@@ -1,9 +1,7 @@
 export const formatSlideshow = (imgString) => {
     return `
-    <div class="slideshow">
-        <div class="numberText">1 / 3</div>
-        <img src=${imgString}>
-        <div class="slide-text">Text</div>
+    <div class="slideshow fade">
+        <img src=${imgString} style="width:100%">
     </div>`
 }
 
