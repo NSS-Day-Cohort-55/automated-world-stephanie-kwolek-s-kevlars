@@ -1,10 +1,6 @@
-<<<<<<< HEAD
-.nav_bar{
-    display: flex;
-    flex-direction: row;
-    align-content: space-between;
-    transition: transform 1s;
-  }
+@import "nav-bar.css";
+@import "footer.css";
+
   .data-card-container{
     display:flex;
   }
@@ -20,7 +16,3 @@
   h3{
     font-size: large;
   }
-=======
-@import "nav-bar.css";
-@import "footer.css";
->>>>>>> main
