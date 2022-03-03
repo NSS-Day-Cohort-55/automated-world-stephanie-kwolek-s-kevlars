@@ -21,3 +21,7 @@ const notableCitizens = [
     website: "N/A",
   },
 ];
+
+export const getPeople = () => {
+  return notableCitizens;
+};
