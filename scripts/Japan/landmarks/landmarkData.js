@@ -16,7 +16,8 @@ const notableLandMarks = [
   {
     name: "Mount Fuji",
     year: "100,000+ years old (estimated)",
-    description: "1333",
+    description:
+      "Mount Fuji located on the island of Honshū, is the highest mountain in Japan, standing 3,776.24 m (12,389.2 ft). It is the second-highest volcano located on an island in Asia (after Mount Kerinci on the island of Sumatra), and seventh-highest peak of an island on Earth. Mount Fuji is an active stratovolcano that last erupted from 1707 to 1708. The mountain is located about 100 km (62 mi) southwest of Tokyo and is visible from there on clear days. Mount Fuji's exceptionally symmetrical cone, which is covered in snow for about five months of the year, is commonly used as a cultural icon of Japan and it is frequently depicted in art and photography, as well as visited by sightseers and climbers.",
     website: "https://www.city.himeji.lg.jp/castle/index.html",
   },
 ];
