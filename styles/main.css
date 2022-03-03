@@ -1,6 +1,10 @@
 @import "nav-bar.css";
 @import "footer.css";
 
+a:hover {
+  color: red;
+}
+
 .data-card-container {
   display: flex;
 }
