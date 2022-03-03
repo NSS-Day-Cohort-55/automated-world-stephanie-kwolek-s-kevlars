@@ -1,21 +1,10 @@
 @import "nav-bar.css";
 @import "footer.css";
+@import "cards.css";
 @import "slideshow.css";
 
-.data-card-container {
-  display: flex;
-}
-.data-cards {
-  width: 30%;
-  margin: 1em;
-}
-.city-data,
-.landmark-data,
-.people-data {
-  border: 1px solid black;
-  margin: 1em 0em;
-  padding: 1em;
-}
-h3 {
-  font-size: large;
+
+body{
+  background-image: linear-gradient(to bottom right,#3f84e5, #c17817);
+  background-repeat: no-repeat;
 }
