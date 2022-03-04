@@ -1,12 +1,13 @@
-import { cityRender } from "/scripts/Iceland/cities/RenderCities.js";
-import { landmarkRender } from "/scripts/Iceland/landmarks/RenderLandmarks.js";
-import { peopleRender } from "/scripts/Iceland/people/RenderPeople.js";
-import { slideshowRender } from "/scripts/Iceland/slideshow/slideshowRender.js";
+import { cityRender } from "/scripts/france/cities/renderCities.js"
+import { landmarkRender } from "/scripts/france/landmarks/renderLandmarks.js"
+import { peopleRender } from "/scripts/france/people/renderPeople.js"
+import { slideshowRender } from "/scripts/france/slideshow/slideshowRender.js"
 
 cityRender();
 landmarkRender();
 peopleRender();
 slideshowRender();
+
 
 var slideIndex = 0;
 showSlides();
@@ -18,9 +19,7 @@ function showSlides() {
     slides[i].style.display = "none";
   }
   slideIndex++;
-  if (slideIndex > slides.length) {
-    slideIndex = 1;
-  }
-  slides[slideIndex - 1].style.display = "block";
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
   setTimeout(showSlides, 4000); // Change image every 2 seconds
 }

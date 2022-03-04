@@ -1,16 +1,17 @@
-import { getCities } from "/scripts/Iceland/cities/cityData.js";
-import { formatData } from "/scripts/Iceland/cities/formatCities.js";
+import { getCities } from "/scripts/france/cities/franceCities.js";
+import {formatData} from "/scripts/france/cities/formatCities.js"
 
-export const cityRender = () => {
-  const contentElement = document.querySelector(".data-card-container");
-  const cities = getCities();
 
-  let renderCity = `<div class="data-cards"><h2>Top ${cities.length} cities to visit</h2>`;
+export const cityRender = () =>{
+    const contentElement = document.querySelector(".data-card-container");
+    const cities = getCities();
 
-  for (const city of cities) {
-    renderCity += formatData(city);
-  }
-  renderCity += `</div>`;
+    let renderCity = `<div class="data-cards"><h2>Top ${cities.length} cities to visit</h2>`
 
-  contentElement.innerHTML += `${renderCity}`;
-};
+    for(const city of cities){
+        renderCity += formatData(city)
+    }
+    renderCity += `</div>`
+
+    contentElement.innerHTML += `${renderCity}`
+}
