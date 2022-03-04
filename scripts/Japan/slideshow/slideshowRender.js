@@ -5,7 +5,8 @@ export const slideshowRender = () => {
   const contentElement = document.querySelector(".slideshow-section");
   const arr = getArr();
 
-  let renderArr = `<div class="slideshow-container">`;
+  let renderArr = `<div class="slideshow-container">
+  <h2> Japan </h2>`;
 
   for (const image of arr) {
     renderArr += formatSlideshow(image);

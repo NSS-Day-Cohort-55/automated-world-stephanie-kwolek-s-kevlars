@@ -44,4 +44,14 @@
   filter: drop-shadow(0 0 10px black);
   overflow: hidden;
   max-height: 450px;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.slideshow-section h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
