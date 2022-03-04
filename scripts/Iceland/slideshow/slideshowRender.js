@@ -6,7 +6,7 @@ export const slideshowRender = () => {
   const arr = getArr();
 
   let renderArr = `<div class="slideshow-container">
-  <h2> iceland </h2>`;
+  <h2> Iceland </h2>`;
 
   for (const image of arr) {
     renderArr += formatSlideshow(image);
