@@ -3,7 +3,7 @@
 @import "cards.css";
 @import "slideshow.css";
 @import "banner.css";
-
+@import "homepage.css";
 body {
   background-image: linear-gradient(to bottom right, #3f84e5, #c17817);
   background-repeat: no-repeat;

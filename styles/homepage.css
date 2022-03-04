@@ -1,0 +1,38 @@
+video {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+        
+  }
+
+.video-wrapper{
+      position: relative;
+      height: 750px;
+      overflow: hidden;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+.video-text{
+       position: relative;
+      text-align: center;
+       justify-content: center;
+       color: white;
+       text-shadow: 0.03em 0.03em black;
+       width: 100%;
+          
+    }
+
+.video-text h1 {
+    background-color: rgba(69, 71, 69, 0.7);
+    font-family: Lora;
+    font-size: xxx-large;
+    font-weight: lighter;
+}
