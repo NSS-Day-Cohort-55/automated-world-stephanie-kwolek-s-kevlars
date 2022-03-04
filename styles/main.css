@@ -2,9 +2,10 @@
 @import "footer.css";
 @import "cards.css";
 @import "slideshow.css";
+@import "banner.css";
 
-
-body{
-  background-image: linear-gradient(to bottom right,#3f84e5, #c17817);
+body {
+  background-image: linear-gradient(to bottom right, #3f84e5, #c17817);
   background-repeat: no-repeat;
+  margin: 0px;
 }
