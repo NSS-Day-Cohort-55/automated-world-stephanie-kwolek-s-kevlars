@@ -14,7 +14,3 @@ export const formatData = (obj) => {
 </article>
     `;
 };
-
-export const getCities = () => {
-  return notableCities;
-};

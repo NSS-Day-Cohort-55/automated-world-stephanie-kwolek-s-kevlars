@@ -1,19 +1,17 @@
 import { formatSlideshow } from "./formatSlideshow.js";
 import { getArr } from "./imageArr.js";
 
-export const slideshowRender = () =>{
-    const contentElement = document.querySelector(".slideshow-section");
-    const arr = getArr();
+export const slideshowRender = () => {
+  const contentElement = document.querySelector(".slideshow-section");
+  const arr = getArr();
 
-    let renderArr = `<div class="slideshow-container">`
+  let renderArr = `<div class="slideshow-container"><h2> France </h2>`;
 
-    for(const image of arr){
-        renderArr += formatSlideshow(image)
-    }
-   
-    contentElement.innerHTML += `${renderArr}
+  for (const image of arr) {
+    renderArr += formatSlideshow(image);
+  }
+
+  contentElement.innerHTML += `${renderArr}
     </div>
-    `
-    
-}
-
+    `;
+};

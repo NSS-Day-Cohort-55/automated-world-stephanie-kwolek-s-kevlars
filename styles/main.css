@@ -9,3 +9,7 @@ body {
   background-repeat: no-repeat;
   margin: 0px;
 }
+
+a:hover {
+  color: red;
+}
