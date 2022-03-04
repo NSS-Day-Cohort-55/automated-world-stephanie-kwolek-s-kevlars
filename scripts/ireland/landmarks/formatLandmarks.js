@@ -5,7 +5,7 @@ export const formatLandmarks = (obj) =>{
     <div class="data-cards">
     <div class="data-card-content">
       <div class="card-header">${obj.name}</div>
-      <div class="data-card-subinfo"> Population: ${obj.year}</div>
+      <div class="data-card-subinfo"> Established: ${obj.year}</div>
       <div class="data-card-body">${obj.description}</div>
     </div>
     </div>

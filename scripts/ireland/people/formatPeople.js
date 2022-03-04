@@ -5,7 +5,7 @@ export const formatPeople = (obj) =>{
     <div class="data-cards">
     <div class="data-card-content">
       <div class="card-header">${obj.name}</div>
-      <div class="data-card-subinfo"> Population: ${obj.occupation}</div>
+      <div class="data-card-subinfo"> Profession: ${obj.occupation}</div>
       <div class="data-card-body">${obj.description}</div>
     </div>
     </div>
