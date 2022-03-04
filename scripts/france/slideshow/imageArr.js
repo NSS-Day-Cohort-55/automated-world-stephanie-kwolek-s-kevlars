@@ -2,9 +2,9 @@
 
 export const getArr= () => {
     const imgArr = [
-        "../../../images/france-images/arch-day.webp",
-        "../../../images/france-images/eiffel-tower-blue.webp",
-        "../../../images/france-images/france-palace-day.jpg"
+        "../../../images/france-images/paris-night.jpg",
+        "../../../images/france-images/france-banner1.webp",
+        "../../../images/france-images/france-banner2.webp"
     ]
     return imgArr
 }
