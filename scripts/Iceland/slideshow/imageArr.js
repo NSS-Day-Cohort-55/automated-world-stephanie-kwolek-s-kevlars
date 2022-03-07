@@ -1,7 +1,7 @@
 export const getArr = () => {
   const imgArr = [
-    "../../../images/france-images/france-banner.jpg",
-    "../../../images/france-images/france-banner2.jpg",
+    "../../../images/iceland-images/iceland-banner-one.jpg",
+    "../../../images/iceland-images/iceland-banner-2.jpg",
   ];
   return imgArr;
 };
